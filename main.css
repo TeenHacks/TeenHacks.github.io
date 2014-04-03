@@ -213,3 +213,11 @@ a:hover {
 	text-align: center;
 	margin: 0 auto 50px auto;
 }
+
+.row .th-row {
+	text-align: center;
+}
+
+.logo {
+	display: inline-block;
+}
