@@ -37,6 +37,32 @@ h4 {
 	font-size: 50px;
 }
 
+#time-place {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 40px;
+}
+
+#location-icon {
+	margin-left: 40px;
+}
+
+#stats-link {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 76px;
+	height: 100px;
+	margin-left: -38px;
+	text-align: center;
+	background-color: #95D149;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size: 60px;
+	color:white;
+}
+
 a {
 	color: black;
 	text-decoration: underline;

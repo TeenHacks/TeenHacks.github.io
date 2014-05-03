@@ -19,11 +19,13 @@
 			<section id="subheader">
 				<h3>Work with mentors to build your<br>first <span data-typer-targets="iPhone app,Android app,robot,website"></span></h3>
 				<br>
-				<h3>October 2014</h3>
+				<p id="time-place">
+					<i class="fa fa-calendar-o"></i> October 2014 <i class="fa fa-map-marker" id="location-icon"></i> Sunny Hills Gym
+				</p>
 			</section>
 			<form action="http://teenhacks.us8.list-manage1.com/subscribe/post?u=81a9c9f8c5693d5827a35303a&amp;id=c04ef576fe" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate register-form" target="_blank" novalidate>
-				<div class="input-group" id="register">
-					<input type="email" value="" placeholder="you@example.com" class="form-control" id="email-textfield" name="EMAIL">
+				<div class="input-group" id="register"><input type="email" value="" placeholder="you@example.com" class="form-control" id="email-textfield" name="EMAIL">
+					
 					<span class="input-group-btn">
 						<input class="btn btn-default" type="submit" value="Register" name="subscribe" id="mc-embedded-subscribe">
 		 			</span>
@@ -34,11 +36,12 @@
 					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 				</div>
 			</form>
-			<section id="arrow-container">
+			<!-- <section id="arrow-container">
 				<a id="to-stats-section" class="hero-button" href="#stats">
 					<img src="images/arrow-down.png">
 				</a>
-			</section>
+			</section> -->
+			<a href="#stats" id="stats-link"><i class="fa fa-angle-double-down"></i></a>
 		</section>
 		<p id="background-attribution">hackNY Spring 2011 hackathon</p>
 	</section>
@@ -143,7 +146,7 @@
 			var registerPosition = $("#mc-embedded-subscribe-form").position();
 			var registerHeight =  $("#mc-embedded-subscribe-form").height();
 			var fullHeight = $("#cover").height();
-		    $("#arrow-container").height(fullHeight - registerPosition.top - registerHeight);
+		    //$("#arrow-container").height(fullHeight - registerPosition.top - registerHeight);
 		}
 		$(document).ready(positionArrow);
 		$(window).resize(positionArrow);
