@@ -47,6 +47,11 @@ h4 {
 	margin-left: 40px;
 }
 
+.btn.btn-default.register-button {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
 #stats-link {
 	display: block;
 	position: absolute;
