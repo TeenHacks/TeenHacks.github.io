@@ -46,6 +46,13 @@ a:hover {
 	color: black;
 }
 
+span.green-highlight::selection {
+	background: #95D149; /* Safari */
+	}
+span.green-highlight::-moz-selection {
+	background: #95D149; /* Firefox */
+}
+
 #header {
 	background-image: url("images/background.jpg");
 	background-repeat: no-repeat;
@@ -68,10 +75,10 @@ a:hover {
 
 #cover {
 	position: absolute;
-	width: 900px;
+	width: 1000px;
 	left: 50%;
 	top: 10%;
-	margin-left: -450px;
+	margin-left: -500px;
 	bottom: 0px;
 }
 

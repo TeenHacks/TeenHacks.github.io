@@ -17,7 +17,7 @@
 			<h1><img src="images/teenhackslogo.svg"></h1>
 			<h2>The largest HS hackathon in Southern California</h2>
 			<section id="subheader">
-				<h3>Work with mentors to build your first app</h3>
+				<h3>Work with mentors to build your<br>first <span data-typer-targets="iPhone app,Android app,robot,website"></span></h3>
 				<br>
 				<h3>October 12-13, 2014</h3>
 			</section>
@@ -122,7 +122,9 @@
 		<p class="bottom-text">Student ambassadors are responsible for getting the word out to their school. If you are interested in becoming the ambassador for your school, send an email to <a href="mailto:adrien@teenhacks.org">adrien@teenhacks.org</a>. You'll get a special t-shirt and we'll put your info on the site.</p>
 	</section>
 	<iframe id="code-video" width="560" height="315" src="http://www.youtube.com/embed/nKIu9yen5nc" frameborder="0" allowfullscreen></iframe>
-	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>	<script>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="jquery.typer.js"></script>
+	<script>
 		$(function() {
 			$('a[href*=#]:not([href=#])').click(function() {
 				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -145,6 +147,8 @@
 		}
 		$(document).ready(positionArrow);
 		$(window).resize(positionArrow);
+
+		$('[data-typer-targets]').typer();
 	</script>
 </body>
 </html>
