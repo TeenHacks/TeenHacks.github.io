@@ -114,6 +114,16 @@ span.green-highlight::-moz-selection {
 	bottom: 0px;
 }
 
+@media only screen and (max-height: 600px) {
+	#cover {
+		top: 5%;
+	}
+
+	#header {
+		min-height: 690px;
+	}
+}
+
 #info {
 	font-size: 30px;
 	text-align: center;
@@ -194,7 +204,7 @@ span.green-highlight::-moz-selection {
 #social {
 	padding-right: 50px;
 	padding-top: 30px;
-	height: 50px;
+	height: 75px;
 	text-align: right;
 	position: absolute;
 	top: 0;
