@@ -58,7 +58,7 @@ h4 {
 	bottom: 0;
 	left: 50%;
 	width: 76px;
-	height: 100px;
+	height: 80px;
 	margin-left: -38px;
 	text-align: center;
 	background-color: #95D149;
@@ -93,7 +93,8 @@ span.green-highlight::-moz-selection {
 	height: 100%;
 	width: 100%;
 	font-variant: bold;
-	min-height: 662px;
+	min-height: 730px;
+	position: relative;
 }
 
 .social-button {
