@@ -266,6 +266,7 @@ span.green-highlight::-moz-selection {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 15px;
 	margin-bottom: 20px
 }
 
