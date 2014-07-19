@@ -283,3 +283,19 @@ span.green-highlight::-moz-selection {
 .logo {
 	display: inline-block;
 }
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.bottom60 {
+	margin-bottom:60px;
+}
