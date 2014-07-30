@@ -281,7 +281,7 @@ span.green-highlight::-moz-selection {
 }
 
 .logo {
-	display: inline-block;
+	text-align: center;
 }
 
 .row-centered {
