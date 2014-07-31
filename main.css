@@ -184,7 +184,7 @@ span.green-highlight::-moz-selection {
 #email-textfield {
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
-	color: white;
+	color: black;
 }
 
 #arrow-container {
