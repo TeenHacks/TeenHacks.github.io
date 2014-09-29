@@ -287,6 +287,7 @@ span.green-highlight::-moz-selection {
 .row-centered {
     text-align:center;
 }
+
 .col-centered {
     display:inline-block;
     float:none;
@@ -298,4 +299,10 @@ span.green-highlight::-moz-selection {
 
 .top60 {
 	margin-top:60px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
