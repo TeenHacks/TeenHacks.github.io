@@ -81,6 +81,16 @@ a:hover {
 	color: black;
 }
 
+.a-white {
+	color: white;
+	text-decoration: underline;
+}
+
+.a-white:hover {
+	color: white;
+}
+
+
 span.green-highlight::selection {
 	background: #95D149; /* Safari */
 	}
