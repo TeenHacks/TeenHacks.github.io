@@ -31,6 +31,16 @@ h2 {
 	font-style: italic;
 }
 
+#sold-out {
+	text-align: center;
+	background: #95D149;
+	font-size: 25px;
+}
+
+#sold-out-box {
+	padding-top: 20px;
+}
+
 #tagline {
 	text-align: center;
 	font-size: 3.8vh;
