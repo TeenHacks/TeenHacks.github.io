@@ -31,16 +31,6 @@ h2 {
 	font-style: italic;
 }
 
-#sold-out {
-	text-align: center;
-	background: #95D149;
-	font-size: 25px;
-}
-
-#sold-out-box {
-	padding-top: 20px;
-}
-
 #tagline {
 	text-align: center;
 	font-size: 3.8vh;
@@ -108,8 +98,17 @@ span.green-highlight::-moz-selection {
 	background: #95D149; /* Firefox */
 }
 
+#event-over {
+	margin-top: 4vh;
+	font-size: 5vh;
+	text-align: center;
+}
+
 #header {
-	background-image: url("images/background.jpg");
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ), url("images/background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 0;
@@ -119,6 +118,27 @@ span.green-highlight::-moz-selection {
 	font-variant: bold;
 	min-height: 650px;
 	position: relative;
+}
+
+.a-button {
+	background: #27ae60;
+	border: 0.7vh solid rgba(51, 51, 51, 0.2);
+	border-radius: 5px;
+	display: block;
+	width: 40vh;
+	font-size: 4vh;
+	text-align: center;
+	margin-top: 5vh;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	padding: 2vh;
+	text-decoration: none;
+}
+
+.a-button:hover {
+	text-decoration: none;
+	color: white;
 }
 
 .social-button {
@@ -137,20 +157,6 @@ span.green-highlight::-moz-selection {
 	margin-left: -500px;
 	bottom: 0px;
 }
-
-/*@media only screen and (max-height: 650px) {
-	#cover {
-		top: 3%;
-	}
-
-	#header {
-		min-height: 620px;
-	}
-
-	h2 {
-		margin-bottom: 45px;
-	}
-}*/
 
 #info {
 	font-size: 30px;
